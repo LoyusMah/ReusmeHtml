@@ -1,7 +1,32 @@
+.container{
+    background-color: bisque;
+    text-align: center;
+    padding: 9px;
+    text-align: center;
+   
+}
+h1:hover{
+    background-color: skyblue;
+}
+@keyframes softwaredeveloper {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+  #software{
+    animation: softwaredeveloper 10s infinite ;
+  }
+  
 .footer{
-    background-color: black;
+    background-color: rgb(107, 101, 101);
     color: white;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 
 }
+.table{
+    background-color: skyblue;
+    font-style: italic;
+    box-shadow: 1px 1px 1px 1px
+};
