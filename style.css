@@ -15,7 +15,7 @@ h1:hover{
     100% {background-color: green;}
   }
   #software{
-    animation: softwaredeveloper 10s infinite ;
+    animation: softwaredeveloper 5s 2s ;
   }
   
 .footer{
@@ -30,3 +30,6 @@ h1:hover{
     font-style: italic;
     box-shadow: 1px 1px 1px 1px
 };
+img{
+    border-radius: 50%;
+}
